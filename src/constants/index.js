@@ -26,7 +26,8 @@ import {
   nextjs,
   dai,
 } from "../assets";
-
+import btmis from "../assets/projects/BTSMIS.png";
+import pms from "../assets/projects/pms.png";
 export const navLinks = [
   {
     id: "about",
@@ -200,45 +201,61 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Membership Management Application",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a robust web application designed to efficiently manage membership information, streamline subscription history tracking, and facilitate comprehensive financial reporting. This application encompasses a multifaceted data approval system, implemented across 15 distinct role-based routing scenarios. Leveraging advanced technologies, the application enables seamless generation of balance sheets and reports, available in a range of formats including XLSX, CSV, and PDF.",
     tags: [
       {
-        name: "react",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Nodejs(MVC)",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "antd",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: btmis,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Project budget management system",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A comprehensive Project Budget Management System, harnessing a stack of cutting-edge technologies including React.js, Node.js with MVC architecture, Ant Design, Redux Toolkit, RTK Query, and Prisma. This project stands as a testament to my proficiency in modern web development and my commitment to delivering robust solutions that optimize budget tracking and management processes.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Redux toolkit & RTK Query",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Antd Design",
         color: "pink-text-gradient",
       },
+      {
+        name: "Nodejs (MVC)",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
+    image: pms,
     source_code_link: "https://github.com/",
   },
   {
